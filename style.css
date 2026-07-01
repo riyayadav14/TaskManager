@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #FFF2DB;
+}
+
+.container{
+   background-color: #FDF4AF;
+    padding: 20px 20px;
+    min-height: 500px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgb(52, 51, 51);
+    position: fixed;
+   
+   
+}
+
+.heading{
+    padding: 10px 10px;
+    padding-left: 100px;
+    color: #CB2957;
+    font-family: "Oswald", sans-serif;
+    
+
+}
+
+span{
+    color:black
+}
+
+.input-section{
+    padding: 20px 20px;
+    padding-left: 20px;
+    display: flex;
+}
+
+#input{
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px rgb(53, 50, 50);
+    padding: 10px 40px;
+    font-family: "Roboto Slab", serif;
+    
+
+}
+
+#btn{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 10px rgb(235, 224, 224);
+}
+
+#btn:hover{
+    background-color: #A5CF83;
+}
+
+ul{
+    padding: 20px  40px;
+    font-size: 2.5vh;
+    color: black;
+    
+}
+
+
+.delete-btn{
+    margin-left: 200px;
+   
+}
